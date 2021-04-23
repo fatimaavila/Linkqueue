@@ -26,7 +26,8 @@ print(lista)
 print("-------------------------")
 
 
-print(" Queue\n")
+print("LINK QUEUE\n")
+int(input())
 lista2.enqueue(nodo_d)
 print('\u001b[33m enqueue d:\n\u001b[0m', lista2)
 lista2.enqueue(nodo_b)
