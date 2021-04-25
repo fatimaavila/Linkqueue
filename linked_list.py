@@ -1,7 +1,8 @@
 class Node:
-  def __init__(self, data):
+  def __init__(self, data, display):
     self.data = data
     self.next = None
+    self.display = display
 
   def __repr__(self):
     return "Data: " + self.data

@@ -19,16 +19,14 @@ lista.head = nodo_a
 nodo_a.next = nodo_b
 nodo_b.next = nodo_c
 
-print("Linked List\n")
-print(lista)
-lista.reverse()
-print(lista)
-print("-------------------------")
 
-
-print("LINK QUEUE\n")
-int(input())
-lista2.enqueue(nodo_d)
+print("LINK QUEUE •ᴗ•\n")
+print("Ingrese el nombre del link que quiere guardar.\n Luego ingrese el link para que este aparezca en la queue.")
+nombre = (input())
+ 
+#print(nombre + "Lista")
+#nodoq= str(input())
+lista2.enqueue(Node(nombre))
 print('\u001b[33m enqueue d:\n\u001b[0m', lista2)
 lista2.enqueue(nodo_b)
 print('\u001b[33m enqueue b:\n\u001b[0m', lista2)
