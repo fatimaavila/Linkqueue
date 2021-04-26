@@ -7,11 +7,10 @@ class Queue(LinkedList,Node):
     node = self.head
     nodes = []
     while node is not None:
-      nodes.append(node.data)
-      nodes.append(node.display)
+      nodes.append("\u001b[36m"+node.data.split("|")[1]+"\u001b[0m"+"\n"+node.data.split("|")[0]+"\n----\n")
       node = node.next
-    nodes.append("None")
-    return "\u001b[33m | \u001b[0m\n ".join(nodes)
+    nodes.append("----")
+    return "".join(nodes)
 
   def enqueue(self, node):
     if self.head == None:
