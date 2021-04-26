@@ -29,8 +29,17 @@ y la computadora se encargaría de realizar estas operaciones.
 
 
 
-### Videos de las pruebas y funcionamiento
+### Videos y links de las pruebas y funcionamiento
 
-https://youtu.be/7u1BtaG3yNE -> Video del funcionamiento versión terminal y versión web
+- https://youtu.be/7u1BtaG3yNE -> Video del funcionamiento versión terminal y versión web
+- https://youtu.be/Bp5UIFxsX4c -> Video pruebas JMeter
+- https://github.com/fatimaavila/linkQueueFlask -> GitHub de la versión en Flask
 
 ## Pruebas en JMETER
+
+![image](https://user-images.githubusercontent.com/69205813/116155750-c3d1fc00-a6a7-11eb-8608-fc26c383c3d7.png)
+25 usuarios 4 veces
+
+![image](https://user-images.githubusercontent.com/69205813/116155928-0abff180-a6a8-11eb-92f5-ff715d7ff502.png)
+1 usuario 100 veces
+
