@@ -24,7 +24,7 @@ Hay dos versiones, una en la terminal que se maneja con comandos y una en el nav
 Para los casos de uso se determinó que el usuario tendría las opciones de agregar a la cola, eliminar de la cola y mostrar la lista. Operaciones básicas en la estrucutra de queues
 y la computadora se encargaría de realizar estas operaciones.
 
-## Unit tests probados en REPL 🛠
+## Profiler en REPL 🛠
 <img src="" width="500" height="280"/> 
 
 
