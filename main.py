@@ -21,12 +21,25 @@ nodo_b.next = nodo_c
 
 
 print("LINK QUEUE •ᴗ•\n")
-print("Ingrese el nombre del link que quiere guardar.\n Luego ingrese el link para que este aparezca en la queue.")
-nombre = (input())
+print("\u001b[33m Ingrese el nombre del link que quiere guardar.\n Luego ingrese el link para que este aparezca en la queue.\u001b[0m\n")
+
+print("Utilice las letras \n -e- para ingresar a la cola \n -d- para sacar de la cola\n -x- para salir.")
+
+
  
 #print(nombre + "Lista")
 #nodoq= str(input())
-lista2.enqueue(Node(nombre))
+
+while True:
+  comando = input()
+  if comando == '':
+    break
+  split = comando.split()
+  if split[0] == "x" :
+    break
+  
+'''
+lista2.enqueue(Node(link, nombre))
 print('\u001b[33m enqueue d:\n\u001b[0m', lista2)
 lista2.enqueue(nodo_b)
 print('\u001b[33m enqueue b:\n\u001b[0m', lista2)
@@ -39,4 +52,4 @@ print('\u001b[33m enqueue a: \n\u001b[0m', lista2)
 lista2.dequeue()
 print('\u001b[32m dequeue: \n\u001b[0m', lista2)
 #print('dequeue a:\n', lista2)
-
+'''
