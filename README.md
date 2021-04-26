@@ -25,7 +25,8 @@ Para los casos de uso se determinó que el usuario tendría las opciones de agre
 y la computadora se encargaría de realizar estas operaciones.
 
 ## Profiler en REPL 🛠
-<img src="" width="500" height="280"/> 
+
+https://youtu.be/IVTZsqbIXBI 
 
 
 
