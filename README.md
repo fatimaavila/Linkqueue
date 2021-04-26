@@ -31,6 +31,6 @@ y la computadora se encargaría de realizar estas operaciones.
 
 ### Videos de las pruebas y funcionamiento
 
-
+https://youtu.be/7u1BtaG3yNE -> Video del funcionamiento versión terminal y versión web
 
 ## Pruebas en JMETER
