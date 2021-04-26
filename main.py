@@ -1,3 +1,4 @@
+import cProfile
 # Fátima Avila // 20200406
 # Linked List implementation
 from linked_list import LinkedList, Node
