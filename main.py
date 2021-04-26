@@ -20,10 +20,12 @@ nodo_a.next = nodo_b
 nodo_b.next = nodo_c
 
 
-print("LINK QUEUE •ᴗ•\n")
-print("\u001b[33m Ingrese el nombre del link que quiere guardar.\n Luego ingrese el link para que este aparezca en la queue.\u001b[0m\n")
+print("\u001b[36m LINK QUEUE •ᴗ•\n\u001b[0m")
+print(" Ingrese el nombre del link que quiere guardar.\n Luego ingrese el link para que este aparezca en la queue.\n ")
 
-print("Utilice las letras \n -e- para ingresar a la cola \n -d- para sacar de la cola\n -x- para salir.")
+print("Utilice las letras \n \u001b[32m-e-\u001b[0m para ingresar a la cola \n \u001b[32m-d-\u001b[0m para sacar de la cola\n \u001b[32m-l-\u001b[0m para mostrar la cola \n \u001b[31m-x-\u001b[0m para salir\n")
+
+print ("\u001b[31m EJEMPLO:\u001b[0m \u001b[32me\u001b[0m https://twitter.com/home \u001b[36mtwit\u001b[0m ")
 
 
  
@@ -37,6 +39,14 @@ while True:
   split = comando.split()
   if split[0] == "x" :
     break
+  if split[0]== "e" :
+    lista2.enqueue(Node(split[1], split[2]))
+  if split[0]== "d":
+    lista2.dequeue()
+  if split[0]=="l":
+    print(lista2)
+
+    
   
 '''
 lista2.enqueue(Node(link, nombre))

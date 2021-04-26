@@ -5,7 +5,7 @@ class Node:
     self.display = display
 
   def __repr__(self):
-    return "Data: " + self.data
+    return "Data: " + self.display
 
 class LinkedList:
   def __init__(self):

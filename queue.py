@@ -8,9 +8,10 @@ class Queue(LinkedList,Node):
     nodes = []
     while node is not None:
       nodes.append(node.data)
+      nodes.append(node.display)
       node = node.next
     nodes.append("None")
-    return " | ".join(nodes)
+    return "\u001b[33m | \u001b[0m\n ".join(nodes)
 
   def enqueue(self, node):
     if self.head == None:
