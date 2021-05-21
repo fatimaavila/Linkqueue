@@ -41,6 +41,6 @@ https://youtu.be/IVTZsqbIXBI
 ![image](https://user-images.githubusercontent.com/69205813/116155750-c3d1fc00-a6a7-11eb-8608-fc26c383c3d7.png)
 25 usuarios 4 veces
 
-![image](https://user-images.githubusercontent.com/69205813/116155928-0abff180-a6a8-11eb-92f5-ff715d7ff502.png)
+![image](https://user-images.githubusercontent.com/69205813/119160123-2bfccf00-ba15-11eb-87fd-b59b62ca9a86.png)
 1 usuario 100 veces
 
